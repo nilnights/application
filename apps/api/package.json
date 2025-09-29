@@ -1,0 +1,26 @@
+{
+  "name": "@apps/api",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx watch --env-file=.env src/main.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "exports": {
+    "./trpc/types": "./src/trpc/types.d.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "@hono/trpc-server": "^0.4.0",
+    "@libsql/client": "^0.15.15",
+    "@trpc/server": "^11.6.0",
+    "drizzle-orm": "^0.44.5",
+    "hono": "^4.9.9",
+    "superjson": "^2.2.2",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.5"
+  }
+}
