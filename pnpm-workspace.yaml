@@ -1,0 +1,9 @@
+packages:
+  - apps/*
+  - pkgs/*
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - esbuild
+  - lefthook
+  - unrs-resolver

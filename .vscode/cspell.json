@@ -1,0 +1,27 @@
+{
+  "ignorePaths": [
+    "node_modules",
+    "dist"
+  ],
+  "words": [
+    "arrayify",
+    "bumpp",
+    "changelogithub",
+    "commitlint",
+    "cronpilot",
+    "esbuild",
+    "iconify",
+    "lefthook",
+    "libsql",
+    "orpc",
+    "pglite",
+    "pkgs",
+    "radashi",
+    "solidjs",
+    "tinyexec",
+    "trixie",
+    "unplugin",
+    "VITE",
+    "witheslint"
+  ]
+}

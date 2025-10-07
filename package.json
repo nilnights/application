@@ -1,0 +1,28 @@
+{
+  "name": "application",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22.10.0"
+  },
+  "scripts": {
+    "prepare": "lefthook install",
+    "start": "turbo start",
+    "build": "turbo build",
+    "release": "bumpp"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.0.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@types/node": "^24.7.0",
+    "bumpp": "^10.3.1",
+    "eslint": "^9.37.0",
+    "lefthook": "^1.13.6",
+    "tsx": "^4.20.6",
+    "turbo": "^2.5.8",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4",
+    "witheslint": "^1.22.0"
+  }
+}
